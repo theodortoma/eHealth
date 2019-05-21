@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MenuBarContainer {
+  display: flex;
+  flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.MenuButtonLeft {
+  display: flex;
+  border-width: 2px;
+  border-style: solid;
+  width: 300px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: darkgray;
+}
+
+.MenuButtonMiddle {
+  display: flex;
+  border-right-width: 2px;
+  border-left-width: 0;
+  border-bottom-width: 2px;
+  border-top-width: 2px;
+  border-style: solid;
+  width: 300px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: darkgray;
+}
+
+.ReportContainer {
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ReportMap {
+  display: flex;
+  margin-right: 30px;
+}
+
+.ReportTitle {
+  display: flex;
+  font-family: "Comic Sans MS";
+  font-size: 35px;
+  color: black;
+  padding-bottom: 30px;
+}
+
+.ReportSearchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+  align-items: center;
+}
+
+.ReportText {
+  display: flex;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.ReportSearchButton {
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  justify-content: center;
+  /*align-items: center;*/
+  margin: auto;
+}
+
+.TableContainer {
+  /*display: flex;*/
+  flex-direction: column;
+}
+
+
+.TableTitle {
+  /*display: flex;*/
+  /*font-family: "Comic Sans MS";*/
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+}
+
+.ReportsRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+
+}
+
+.ReportsTable {
+  max-height: 440px;
+}
+
+.Logo {
+  margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.DetailsContainer {
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.DetailsTitle {
+  display: flex;
+  color: black;
+  font-family : "Comic Sans MS";
+  font-size: 30px;
+  margin: 40px;
+}
+
+.DetailsDataContainer {
+  display: flex;
+  flex-direction: row;
+  min-width: 600px;
+  margin-left: 20px;
+}
+
+.DetailsData {
+  display: flex;
+  min-width: 300px;
+  flex-direction: column;
+}
+
+.DetailsDataName {
+  display: flex;
+  color: black;
+}
+
+.DetailsDataValue {
+  color: black;
+  display: flex;
+  font-style: italic;
+}
+
