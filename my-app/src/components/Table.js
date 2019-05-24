@@ -7,7 +7,7 @@ class Table extends Component {
 
     setDetails(line) {
       let detailsData = [];
-      for (let i = 0; i < this.props.columns.length; i++) {
+      for (let i = 0; i < this.props.columns.length - 1; i++) {
         detailsData.push({name: this.props.columns[i], value: line[i]});
       }
       this.props.changeDetailsData("Pharmacy", detailsData);
